@@ -1,0 +1,42 @@
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    font-size: 120%;
+}
+
+#profile-image {
+    margin: 20px 20px 0px 0px;
+}
+
+ul.browser-default li {
+    font-size: 120%;
+}
+
+.active-sidenav-link {
+    border-left: 8px solid #4fc3f7;
+}
+
+.active-sidenav-link a {
+    margin-left: -8px;
+}
+
+div.mobile-divider-med {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul.mobile-list-med {
+    margin-right: 25px;
+}
+
+div.valign-wrapper h3 {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#sidenav-header-row {
+    margin-top: 10px;
+}
