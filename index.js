@@ -21,11 +21,6 @@ app.config(function($routeProvider, $locationProvider){
                             templateUrl: "skills.html",
                             title: "Skills"
                         });
-    
-    $locationProvider.html5Mode({
-        enabled: true,
-        requireBase: false
-    });
 });
 
 app.controller("controller", function($scope, $location){
