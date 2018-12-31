@@ -14,11 +14,9 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script> 
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
         <script src="index.js"></script>
     </head>
-    <body ng-controller="controller">
+    <body>
         <div class="navbar-fixed">
             <nav class="light-blue lighten-2">
                 <div class="nav-wrapper">
@@ -41,12 +39,24 @@
                     </div>
                 </div>
             </li>
-            <li ng-class="{'active-sidenav-link' : isActive('/')}"><a href="./" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">person_outline</i>About Me</a></li>
-            <li ng-class="{'active-sidenav-link' : isActive('/education')}"><a href="./education" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">school</i>Education</a></li>
-            <li ng-class="{'active-sidenav-link' : isActive('/experience')}"><a href="./experience" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment</i>Experience</a></li>
-            <li ng-class="{'active-sidenav-link' : isActive('/skills')}"><a href="./skills" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment_turned_in</i>Skills</a></li>
+            <li class="active-sidenav-link"><a href="./" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">person_outline</i>About Me</a></li>
+            <li><a href="./education.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">school</i>Education</a></li>
+            <li><a href="./experience.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment</i>Experience</a></li>
+            <li><a href="./skills.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment_turned_in</i>Skills</a></li>
         </ul>
         
-        <div ng-view class="container"></div>
+        <div class="container">
+            <h1 class="hide-on-med-and-up center-align">About Me</h1>
+            <h1 class="hide-on-small-only">About Me</h1>
+            <div class="divider"></div>
+            <div class="row">
+                <p class="col s12 m8 l8">
+                    I am a Computer Science major at the University of Missouri. I'm interested in a wide variety of technologies, including mobile devices and wearables.
+                </p>
+                <div class="col s12 m4 l4">
+                    <img id="profile-image" class="responsive-img z-depth-1" src="profile.jpg" alt="Ryan Filkins">
+                </div>
+            </div>
+        </div>
     </body>
 </html>

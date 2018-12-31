@@ -1,52 +1,103 @@
-<h1 class="hide-on-med-and-up center-align">Experience</h1>
-<h1 class="hide-on-small-only">Experience</h1>
-<div class="divider"></div>
-<div class="row">
-    <div class="col s12 m8 l8">
-        <h4 class="hide-on-med-and-up center-align">Employment</h4>
-        <h4 class="hide-on-small-only">Employment</h4>
-        <div class="divider hide-on-med-and-up mobile-divider-med"></div>
-        <div class="divider hide-on-small-only"></div>
-        <div class="row">
-            <div class="col s4">
-                <h5 class="left-align">Software Engineering Intern</h5>
+<!DOCTYPE html>
+
+<html lang="en" ng-app="portfolioApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>About</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="light-blue lighten-2">
+                <div class="nav-wrapper">
+                    <span class="brand-logo center">Ryan Filkins</span>
+                    <ul class="left">
+                        <li><a href="#" data-target="slide-out" class="sidenav-trigger show-on-large waves-effect"><i class="material-icons">menu</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div id="sidenav-header-row" class="row valign-wrapper">
+                    <div class="col s3 valign-wrapper">
+                        <img class="responsive-img circle" src="profile_square.jpg" alt="Ryan Filkins">
+                    </div>
+                    <div class="col s9 valign-wrapper">
+                        <h3>Ryan Filkins</h3>
+                    </div>
+                </div>
+            </li>
+            <li><a href="./" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">person_outline</i>About Me</a></li>
+            <li><a href="./education.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">school</i>Education</a></li>
+            <li class="active-sidenav-link"><a href="./experience.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment</i>Experience</a></li>
+            <li><a href="./skills.html" class="navigation-link sidenav-close waves-effect"><i class="material-icons small">assignment_turned_in</i>Skills</a></li>
+        </ul>
+        
+        <div class="container">
+            <h1 class="hide-on-med-and-up center-align">Experience</h1>
+            <h1 class="hide-on-small-only">Experience</h1>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s12 m8 l8">
+                    <h4 class="hide-on-med-and-up center-align">Employment</h4>
+                    <h4 class="hide-on-small-only">Employment</h4>
+                    <div class="divider hide-on-med-and-up mobile-divider-med"></div>
+                    <div class="divider hide-on-small-only"></div>
+                    <div class="row">
+                        <div class="col s4">
+                            <h5 class="left-align">Software Engineering Intern</h5>
+                        </div>
+                        <div class="col s4">
+                            <h5 class="center-align">Garmin</h5>
+                        </div>
+                        <div class="col s4">
+                            <h5 class="right-align">Summer 2018</h5>
+                        </div>
+                    </div>
+                    <ul class="browser-default mobile-list-med hide-on-med-and-up">
+                        <li>Worked with the Aviation Software group to develop and maintain software for various airplane navigation products</li>
+                        <li>Gained experience working on and testing large software projects in a team environment</li>
+                    </ul>
+                    <ul class="browser-default hide-on-small-only">
+                        <li>Worked with the Aviation Software group to develop and maintain software for various airplane navigation products</li>
+                        <li>Gained experience working on and testing large software projects in a team environment</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col s4">
-                <h5 class="center-align">Garmin</h5>
-            </div>
-            <div class="col s4">
-                <h5 class="right-align">Summer 2018</h5>
+            <div class="row">
+                <div class="col s12 m8 l8">
+                    <h4 class="hide-on-med-and-up center-align">Projects</h4>
+                    <h4 class="hide-on-small-only">Projects</h4>
+                    <div class="divider hide-on-med-and-up mobile-divider-med"></div>
+                    <div class="divider hide-on-small-only"></div>
+                    <div class="row">
+                        <div class="col s6">
+                            <h5 class="left-align">iOS Developement</h5>
+                        </div>
+                        <div class="col s6">
+                            <h5 class="right-align">Fall 2017</h5>
+                        </div>
+                    </div>
+                    <ul class="browser-default mobile-list-med hide-on-med-and-up">
+                        <li>Used Swift and Xcode to develop a GPA calculation app. </li>
+                    </ul>
+                    <ul class="browser-default hide-on-small-only">
+                        <li>Used Swift and Xcode to develop a GPA calculation app. </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <ul class="browser-default mobile-list-med hide-on-med-and-up">
-            <li>Worked with the Aviation Software group to develop and maintain software for various airplane navigation products</li>
-            <li>Gained experience working on and testing large software projects in a team environment</li>
-        </ul>
-        <ul class="browser-default hide-on-small-only">
-            <li>Worked with the Aviation Software group to develop and maintain software for various airplane navigation products</li>
-            <li>Gained experience working on and testing large software projects in a team environment</li>
-        </ul>
-    </div>
-</div>
-<div class="row">
-    <div class="col s12 m8 l8">
-        <h4 class="hide-on-med-and-up center-align">Projects</h4>
-        <h4 class="hide-on-small-only">Projects</h4>
-        <div class="divider hide-on-med-and-up mobile-divider-med"></div>
-        <div class="divider hide-on-small-only"></div>
-        <div class="row">
-            <div class="col s6">
-                <h5 class="left-align">iOS Developement</h5>
-            </div>
-            <div class="col s6">
-                <h5 class="right-align">Fall 2017</h5>
-            </div>
-        </div>
-        <ul class="browser-default mobile-list-med hide-on-med-and-up">
-            <li>Used Swift and Xcode to develop a GPA calculation app. </li>
-        </ul>
-        <ul class="browser-default hide-on-small-only">
-            <li>Used Swift and Xcode to develop a GPA calculation app. </li>
-        </ul>
-    </div>
-</div>
+    </body>
+</html>
